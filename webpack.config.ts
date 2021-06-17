@@ -105,9 +105,9 @@ const config: Configuration = {
             ],
         }),
     ],
-    devServer: {
+    /*devServer: {
         historyApiFallback: true,
-    },
+    },*/
     devtool: isDevelopment ? "eval-source-map" : "nosources-source-map",
 };
 
